@@ -1,0 +1,15 @@
+Instance: pepsi_soda_fountain
+
+Attributes:
+has_ice? = true
+dispensers = 10
+brand = false
+freestyle? = false
+syrup_brands = ["Pepsi", "Sprite", "Mountain Dew", etc]
+
+Methods:
+no_ice: "has_ice?" -> false
+new_supplier: "brand" -> "Coca-Cola"
+upgrade: "freestyle?" -> true
+replace: "syrup_brands" -> ["Coca-Cola", "Sprite", "Mountain Dew", etc]
+out_of_order: "dispensers" -> 9

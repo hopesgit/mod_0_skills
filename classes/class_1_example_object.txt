@@ -6,3 +6,10 @@ attached_to_wall: false
 material: "wood with glass pane"
 covered?: false
 dirty?: true
+
+Methods:
+extend: "can_seat" -> 10
+attach: "attached_to_wall" -> true
+cover: "covered?" -> true
+rm_cover: "covered?" -> false
+clean: "dirty?" -> false

@@ -6,3 +6,10 @@ dispensers (integer)
 brand (string)
 freestyle? (boolean)
 syrup_brands (array)
+
+Methods:
+no_ice (changes "has_ice?" to false)
+new_supplier (changes "brand" to a different string)
+upgrade (changes "freestyle?" to true)
+replace (updates "syrup_brands" with new information)
+out_of_order (changes "dispensers")
