@@ -1,0 +1,15 @@
+Class: Table
+
+Attributes:
+can_seat (integer)
+attached_to_wall (boolean)
+material (string)
+covered? (boolean)
+dirty? (boolean)
+
+Methods:
+extend (extends the length of the table; acts on "can_seat")
+cover (covers the table with a tablecloth; acts on "covered?" and makes it true)
+rm_cover (removes the tablecloth; acts on "covered?" and makes it false)
+attach (glue table to the wall for security; changes the "attached_to_wall" attribute to "true")
+clean (changes "dirty? to false)
