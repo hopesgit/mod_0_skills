@@ -1,0 +1,8 @@
+Class: SodaFountain
+
+Attributes:
+has_ice? (boolean)
+dispensers (integer)
+brand (string)
+freestyle? (boolean)
+syrup_brands (array)
