@@ -1,0 +1,8 @@
+Instance: table_with_glass
+
+Attributes:
+can_seat: 6
+attached_to_wall: false
+material: "wood with glass pane"
+covered?: false
+dirty?: true
