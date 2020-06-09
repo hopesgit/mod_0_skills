@@ -1,0 +1,9 @@
+food = "burgers"
+is_delicious = true
+food = "tacos"
+num2 = 27
+num7 = 22
+quotient = "#{num7 / num2}"
+songs = ["Song1", "Song2", "Song3"]
+songs.shift
+food.length
